@@ -131,30 +131,23 @@
         <!-- Your image here -->
         <img src="static/images/pipeline.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          First image description.
+          FlexiFilm pipeline. The subplot (a) shows the backbone of FlexiFilm is a 3D U-Net working on the latent space of VAE, using a temporal conditioner for multi-modal (text, image or video) referencing for video frames generate. The subplot (b) shows the workflow of the proposed temporal conditioner, where visual contents (image or frames) and text contents are fused to guide the video generation process with both spatial and temporal information.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
         <img src="static/images/model.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          Second image description.
+          Structure of video projector. In the proposed video projector, the condition frames pass through IP samplers separately to obtain independent spatial information, and then go through temporal transformers together to learn inter-frame temporal information. After that, the finally obtained projected feature contains rich information both spatially and temporally.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
         <img src="static/images/train.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-         Third image description.
+          Temporal module co-training. All modules containing learnable parameters are drawn with a fire icon, and the two paths of gradient pass-backing are marked with green arrows, occurring with probabilities $p$ and $p-1$ respectively.
        </h2>
      </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
   </div>
 </div>
 </div>
@@ -194,35 +187,6 @@
 </section>
 <!-- End teaser video -->
 
-
-
-
-
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
 <!-- Video carousel -->
 <section class="hero is-small">
   <div class="hero-body">
@@ -255,25 +219,6 @@
   </div>
 </section>
 <!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
 
 
 <!--BibTex citation -->
